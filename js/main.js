@@ -4,7 +4,8 @@ import {meniesiai} from './menesiai.js';
 
 
 const params = {
-    selector: '.table-content',
+    selectorTable: '.table-content',
+    selectorFooter: '.table-footer',
     data: account,
     months: meniesiai
 }
